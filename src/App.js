@@ -4,16 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-      <center>
-      <div>
-       <h2>welcome</h2>
-       </div>
-       </center>
-       
-
-      </header>
+     <center>
+     <h2> WELCOME</h2>
+     <button class="btn btn-success">Get started</button>
+     </center>
     </div>
   );
 }
