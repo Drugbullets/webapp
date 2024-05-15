@@ -1,13 +1,15 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <center>
-     <h2> WELCOME</h2>
-     <button class="btn btn-success">Get started</button>
-     </center>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h2>WELCOME</h2>
+        <button className="btn btn-success">Get started</button>
+      </header>
     </div>
   );
 }
